@@ -1,4 +1,4 @@
-package com.school.controller;
+package com.cg.controller;
 
 import java.util.List;
 
@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.school.entity.Student;
-import com.school.exception.NoSuchCourseFoundException;
-import com.school.exception.NoSuchStudentFoundException;
-import com.school.service.StudentService;
+import com.cg.entity.Student;
+import com.cg.exception.NoSuchCourseFoundException;
+import com.cg.exception.NoSuchStudentFoundException;
+import com.cg.service.StudentService;
 
 @RestController
 @RequestMapping("/studentcourse")

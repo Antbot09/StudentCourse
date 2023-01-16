@@ -1,4 +1,4 @@
-package com.school.exception;
+package com.cg.exception;
 
 public class NoSuchCourseFoundException extends Exception {
 

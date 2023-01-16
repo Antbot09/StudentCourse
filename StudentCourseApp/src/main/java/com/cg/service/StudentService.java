@@ -1,10 +1,10 @@
-package com.school.service;
+package com.cg.service;
 
 import java.util.*;
 
-import com.school.entity.Student;
-import com.school.exception.NoSuchCourseFoundException;
-import com.school.exception.NoSuchStudentFoundException;
+import com.cg.entity.Student;
+import com.cg.exception.NoSuchCourseFoundException;
+import com.cg.exception.NoSuchStudentFoundException;
 
 public interface StudentService {
 

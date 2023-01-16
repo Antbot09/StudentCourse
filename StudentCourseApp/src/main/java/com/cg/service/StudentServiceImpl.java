@@ -1,4 +1,4 @@
-package com.school.service;
+package com.cg.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,12 +6,12 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.school.entity.Course;
-import com.school.entity.Student;
-import com.school.exception.NoSuchCourseFoundException;
-import com.school.exception.NoSuchStudentFoundException;
-import com.school.repository.CourseRepo;
-import com.school.repository.StudentRepo;
+import com.cg.entity.Course;
+import com.cg.entity.Student;
+import com.cg.exception.NoSuchCourseFoundException;
+import com.cg.exception.NoSuchStudentFoundException;
+import com.cg.repository.CourseRepo;
+import com.cg.repository.StudentRepo;
 
 @Service
 public class StudentServiceImpl implements StudentService {
